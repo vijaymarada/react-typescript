@@ -18,7 +18,7 @@ class App extends React.Component<{}, Counter> {
   render() {
     return (
       <div className="App">
-        <h1>From Typescript</h1><br />
+        <h1>From Typescript Class component</h1><br />
         <Image title="Image sample" /><br />
         Counter is {this.state.count}
         <br />
